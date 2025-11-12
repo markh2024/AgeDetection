@@ -1,0 +1,12 @@
+age_web/
+├── age_detection.php       <-- Your main PHP page
+├── style_age.css           <-- CSS file
+├── age_detection.js        <-- JS file
+├── uploads/                <-- Uploaded images folder
+├── models/                 <-- Pre-trained models for OpenCV
+│   ├── deploy.prototxt
+│   ├── res10_300x300_ssd_iter_140000.caffemodel
+│   ├── age_deploy.prototxt
+│   └── age_net.caffemodel
+└── bin/                    <-- Executable folder
+    └── age_estimator       <-- Your compiled C++ program
